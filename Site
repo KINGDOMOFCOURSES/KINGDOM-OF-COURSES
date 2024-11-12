@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to the Kingdom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Kingdom</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Início</h2>
+        <p>Bem-vindo! Explore nosso catálogo de cursos e encontre materiais para todos os interesses e necessidades.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Sou um criador apaixonado, focado em desenvolver cursos de alta qualidade. Se tiver sugestões para novos cursos, entre em contato!</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Cursos Disponíveis</h2>
+        <div class="produto">
+            <h3>Curso de Desenvolvimento Web</h3>
+            <p>Domine a criação de sites completos com HTML, CSS e JavaScript.</p>
+            <a href="curso-desenvolvimento-web.html" class="botao">Saiba Mais</a>
+        </div>
+        <div class="produto">
+            <h3>Curso de Marketing Digital</h3>
+            <p>Aprenda as melhores estratégias para expandir seu negócio digitalmente.</p>
+            <a href="curso-marketing-digital.html" class="botao">Saiba Mais</a>
+        </div>
+        <!-- Adicione mais cursos conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Welcome to the Kingdom - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
